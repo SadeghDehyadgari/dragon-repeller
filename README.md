@@ -30,6 +30,7 @@ Or play instantly:
 📜 Code Structure
 
 dragon-repeller/
+
 ├── dragon-repeller.html  # Main game interface
 
 ├── styles.css           # All styling (responsive design)
