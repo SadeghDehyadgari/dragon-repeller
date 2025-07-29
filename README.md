@@ -22,10 +22,7 @@ A lightweight browser-based role-playing game built with pure vanilla JavaScript
 1. Clone the repo:
    ```bash
    git clone https://github.com/sadeghdehyadgari/dragon-repeller.git
-Open dragon-repeller.html in any modern browser
-
-Or play instantly:
-👉 Live Demo
+Open index.html in any modern browser
 
 📜 Code Structure
 
