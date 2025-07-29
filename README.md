@@ -1,6 +1,6 @@
 # 🐉 Dragon Repeller RPG
 
-[Live Demo](https://sadeghdehyadgari.github.io/dragon-repeller/)](https://sadeghdehyadgari.github.io/dragon-repeller/)
+Live Demo: (https://sadeghdehyadgari.github.io/dragon-repeller/)](https://sadeghdehyadgari.github.io/dragon-repeller/)
 
 A lightweight browser-based role-playing game built with pure vanilla JavaScript, HTML5, and CSS3—no frameworks or libraries required.
 
