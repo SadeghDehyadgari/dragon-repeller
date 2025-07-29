@@ -5,6 +5,7 @@ let currentWeapon = 0;
 let fighting;
 let monsterHealth;
 let inventory = ["stick"];
+let hasPlayedEasterEgg = false;
 
 const button1 = document.querySelector("#button1");
 const button2 = document.querySelector("#button2");
@@ -263,7 +264,11 @@ function restart() {
 }
 
 function easterEgg() {
-  update(locations[7]);
+  hasPlayedEasterEgg = false;
+  update({
+    ...locations[7],
+    text: "You find a secret game. Pick a number above. You only get one try!",
+  });
 }
 
 function pickTwo() {
@@ -275,14 +280,23 @@ function pickEight() {
 }
 
 function pick(guess) {
+  if (hasPlayedEasterEgg) {
+    text.innerText = "You already played this game!";
+    return;
+  }
+
+  hasPlayedEasterEgg = true;
+
   const numbers = [];
   while (numbers.length < 10) {
     numbers.push(Math.floor(Math.random() * 11));
   }
+
   text.innerText = "You picked " + guess + ". Here are the random numbers:\n";
   for (let i = 0; i < 10; i++) {
     text.innerText += numbers[i] + "\n";
   }
+
   if (numbers.includes(guess)) {
     text.innerText += "Right! You win 20 gold!";
     gold += 20;
