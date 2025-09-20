@@ -1,6 +1,6 @@
 # 🐉 Dragon Repeller RPG
 
-This project was uilt to practice and demonstrate JavaScript skills learned through freeCodeCamp.
+This project was built to practice and demonstrate JavaScript skills learned through freeCodeCamp.
 Live Demo: (https://sadeghdehyadgari.github.io/dragon-repeller/)
 
 A lightweight browser-based role-playing game built with pure vanilla JavaScript, HTML5, and CSS3—no frameworks or libraries required.
