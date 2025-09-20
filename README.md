@@ -38,9 +38,6 @@ dragon-repeller/
 🤝 Contributing
 Found a bug or have suggestions? Open an issue or submit a PR!
 
-📄 License
-MIT © [SadeghDehyadgari]
-
 ### Key Features of This README:
 1. **Badges** - Visual indicators for live demo and tech stack
 2. **Clear CTAs** - Both local setup and live demo options
